@@ -9,6 +9,7 @@
         <module>integration-kafka</module>
         <module>integration-rabbitmq</module>
         <module>integration-redis</module>
+        <module>integration-rocketmq</module>
     </modules>
 
     <name>framework-integration Maven Webapp</name>
