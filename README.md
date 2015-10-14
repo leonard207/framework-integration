@@ -1,2 +1,2 @@
 # framework-integration
-framework-integration  框架集成
+framework-integration  基于spring 整合各类主流框架
