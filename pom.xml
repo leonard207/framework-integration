@@ -10,6 +10,7 @@
         <module>integration-rabbitmq</module>
         <module>integration-redis</module>
         <module>integration-rocketmq</module>
+        <module>integration-activemq</module>
     </modules>
 
     <name>framework-integration Maven Webapp</name>
