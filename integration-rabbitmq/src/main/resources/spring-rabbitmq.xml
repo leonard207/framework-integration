@@ -21,7 +21,6 @@
        <!-- queue 队列声明-->
        <rabbit:queue name="myQueue" />
 
-
        <rabbit:topic-exchange name="myExchange">
               <rabbit:bindings>
                      <rabbit:binding queue="myQueue" pattern="foo.*" />

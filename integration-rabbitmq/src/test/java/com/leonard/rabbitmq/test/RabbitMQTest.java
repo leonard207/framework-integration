@@ -22,10 +22,10 @@ public class RabbitMQTest {
 
         String message = "Hello World Leonard ";
        // amqpTemplate.convertAndSend("myExchange","","");
-        for (int i = 1; i < 10; i++) {
-            amqpTemplate.convertAndSend("myExchange", "foo.bar","receive[" +  i + "]msg=" + message);
-            Thread.sleep(3600);
-        }
+        //for (int i = 1; i < 10; i++) {
+          //  amqpTemplate.convertAndSend("myExchange", "foo.bar","receive[" +  i + "]msg=" + message);
+           // Thread.sleep(3600);
+       // }
 
     }
 }
