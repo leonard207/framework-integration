@@ -2,5 +2,5 @@ language: java
 jdk:
    - oraclejdk7
 
-script: mvn deploy -Dmaven.test.skip
+script: mvn package -Dmaven.test.skip
 
