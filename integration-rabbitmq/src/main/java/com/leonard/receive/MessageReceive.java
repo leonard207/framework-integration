@@ -1,4 +1,4 @@
-package com.yao.leonard.receive;
+package com.leonard.receive;
 
 /**
  * Created by lining on 2015/10/13.

@@ -32,7 +32,7 @@
               <rabbit:listener ref="msgReceive" method="receive" queue-names="myQueue" />
        </rabbit:listener-container>
 
-       <bean id="msgReceive" class="com.yao.leonard.receive.MessageReceive" />
+       <bean id="msgReceive" class="com.leonard.receive.MessageReceive" />
 
 
 </beans>
